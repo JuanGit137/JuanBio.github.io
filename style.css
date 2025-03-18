@@ -1,0 +1,82 @@
+div {
+    text-align: center;
+}
+body {
+    background-color: rgb(223, 228, 255);
+}
+
+h2 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color:  rgb(75, 176, 253); 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+p {
+    color: rgb(11, 11, 11);
+    width: 90%; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: rgb(240, 245, 255);
+    border: 2px solid rgb(75, 176, 253); 
+
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid rgb(75, 176, 253); 
+    border-radius: 10px;
+}
+
+a {
+    color:  rgb(11, 11, 11);
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(75, 176, 253);
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block; 
+    margin: 20px auto; 
+    font-weight: bold;
+}
+
+table {
+    width: 80%; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: rgb(223, 228, 255);
+    border: 2px solid rgb(75, 176, 253); 
+}
+
+th, td {
+    padding: 10px 15px; 
+    border: 1px solid rgb(75, 176, 253);
+}
+
+th {
+    background-color: rgb(75, 176, 253);  
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(200, 220, 255);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(240, 245, 255); 
+}
